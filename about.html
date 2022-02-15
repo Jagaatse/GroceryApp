@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title> Online-Grocery-Market </title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/ee9a3c1bea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+        <a href="index1.html"><img src="images/logo.png.png"></a>
+            <div class="nav-links" id="navLinks" >
+        <i class="fa fa-times" onclick="hideMenu()"> </i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SERVICE</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">BLOG</a></li>
+             </ul>
+        
+            </div>
+           <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        
+        
+   <h1></h1>
+        
+    </section>
+    
+
+ 
+
+    <!---footer--->
+    
+    <section class="footer">
+        <h4> About Us </h4>
+        <p>further Food believes that what you put in your body is the most powerful tool</p>
+        <div class="icons">
+        <i class="fa fa-facebook"></i>
+             <i class="fa fa-twitter"></i>
+             <i class="fa fa-instagram"></i>
+             <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+    
+    
+    
+    <!----JavaScript for toggle menu --->
+    
+    <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }    
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }  
+    </script>
+    
+    
+    
+</body>
+</html>
